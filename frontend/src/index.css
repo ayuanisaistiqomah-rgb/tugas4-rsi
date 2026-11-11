@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Nunito', ui-sans-serif, system-ui, sans-serif;
+
+  --color-brand: #4f97e3;
+  --color-brand-dark: #1e4c8a;
+  --color-brand-soft: #e3f1ff;
+  --color-sky: #bfe0ff;
+  --color-sun: #ffe88a;
+  --color-sun-soft: #fff9e3;
+  --color-sun-deep: #7a5b00;
+  --color-ink: #24305e;
+
+  --color-surface: #ffffff;
+  --color-text: #24305e;
+  --color-muted: #5f6a90;
+  --color-border: #dfe8f5;
+  --color-danger: #dc2626;
+
+  --color-pink-50: #fffbe8;
+  --color-pink-100: #fff3c4;
+  --color-pink-200: #ffe88a;
+  --color-pink-300: #ffdd57;
+  --color-pink-400: #fbd038;
+  --color-pink-500: #f2c200;
+  --color-pink-600: #b38900;
+  --color-pink-700: #7a5b00;
+
+  --color-rose-50: #f0f8ff;
+  --color-rose-100: #e3f1ff;
+  --color-rose-200: #bfe0ff;
+  --color-rose-300: #93c8f8;
+  --color-rose-400: #6db0ee;
+  --color-rose-500: #4f97e3;
+  --color-rose-600: #3a7fcb;
+  --color-rose-700: #1e4c8a;
+}
+
+body {
+  background: #fff9e3;
+  color: #24305e;
+}
